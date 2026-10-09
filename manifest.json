@@ -1,0 +1,15 @@
+{
+  "name": "soldfetch-agent-skills",
+  "version": "1.0.0",
+  "description": "Public eBay listing research through SoldFetch",
+  "homepage": "https://soldfetch.com",
+  "repository": "https://github.com/ricciflow-api/soldfetch-agent-skills",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "ebay-data",
+      "path": "skills/ebay-data",
+      "description": "Research public eBay sold or active listings and item details."
+    }
+  ]
+}

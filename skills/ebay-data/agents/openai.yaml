@@ -1,0 +1,13 @@
+interface:
+  display_name: "SoldFetch eBay Data"
+  short_description: "Research eBay listings with SoldFetch"
+  default_prompt: "Use $ebay-data to research this eBay item with a bounded request budget."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "soldfetch"
+      description: "SoldFetch public eBay listing data"
+      transport: "streamable_http"
+      url: "https://soldfetch.com/api/mcp"
+policy:
+  allow_implicit_invocation: true
