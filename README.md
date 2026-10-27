@@ -1,6 +1,6 @@
 # SoldFetch agent skills
 
-Installable skills for public eBay listing research through [SoldFetch](https://soldfetch.com). Follows the Glade agent-skills package layout with MCP-first guidance and a standard-library Python REST fallback.
+Installable skills for public eBay listing research through [SoldFetch](https://soldfetch.com). Includes MCP-first guidance and a standard-library Python REST fallback.
 
 ## Install
 
